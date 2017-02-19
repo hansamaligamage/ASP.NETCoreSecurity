@@ -1,0 +1,12 @@
+﻿@model tokenserver.ViewModels.ErrorViewModel
+
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h1 class="text-danger">Error.</h1>
+
+<p>Display Mode : @Model.Error.DisplayMode</p>
+<p>Error : @Model.Error.Error</p>
+<p>Request Id : @Model.Error.RequestId</p>
+<p>Ui Locales : @Model.Error.UiLocales</p>
